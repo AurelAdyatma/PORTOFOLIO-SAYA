@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Klemens Porto — Login</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="nav">
+      <div class="brand">
+        <span>Klemens Porto</span>
+        <span class="badge">Orange x Black</span>
+      </div>
+      <div class="navlinks">
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign Up</a>
+      </div>
+    </div>
+
+    <div class="auth-wrap">
+      <div class="card">
+        <h1>Login</h1>
+        <p>Masuk dulu ya. Setelah itu langsung ke halaman portfolio kamu.</p>
+
+        <!-- HTML-only: submit diarahkan ke portfolio -->
+        <form class="form" action="portfolio.html">
+          <div>
+            <label>Email</label>
+            <input class="input" type="email" placeholder="kamu@email.com" required>
+          </div>
+
+          <div>
+            <label>Password</label>
+            <input class="input" type="password" placeholder="••••••••" required>
+          </div>
+
+          <div class="row">
+            <a class="small-link" href="forgot.html">Forgot password?</a>
+            <a class="small-link" href="signup.html">Belum punya akun? Sign up</a>
+          </div>
+
+          <button class="btn" type="submit">Masuk</button>
+
+          <div class="divider">atau</div>
+
+          <a class="btn secondary" href="portfolio.html">Lihat Portfolio (tanpa login)</a>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer">© 2026 Klemens Porto</div>
+  </div>
+</body>
+</html>
