@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Klemens Porto — Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- NAV -->
+    <div class="nav">
+      <div class="brand">
+        <span>Klemens Porto</span>
+        <span class="badge">UKDW • Informatika</span>
+      </div>
+      <div class="navlinks">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="login.html">Logout</a>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <h2>Halo, aku Klemens 👋</h2>
+      <p>
+        Mahasiswa Informatika UKDW. Ini website portofolio tema Orange x Black.
+        Kamu bisa cek Instagram aku atau langsung chat WhatsApp.
+      </p>
+
+      <div class="actions">
+        <!-- INSTAGRAM PRIBADI -->
+        <a class="action-btn"
+           href="https://www.instagram.com/klemens.tan?igsh=YmJ2d2JrMWUxeGx3"
+           target="_blank" rel="noopener">
+          <span class="icon">
+            <!-- Instagram SVG -->
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.5 2.75h9A4.75 4.75 0 0 1 21.25 7.5v9A4.75 4.75 0 0 1 16.5 21.25h-9A4.75 4.75 0 0 1 2.75 16.5v-9A4.75 4.75 0 0 1 7.5 2.75Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M12 16.25a4.25 4.25 0 1 0 0-8.5 4.25 4.25 0 0 0 0 8.5Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M17.5 6.9h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </span>
+          Instagram
+        </a>
+
+        <!-- WHATSAPP PRIBADI (085156621047 -> 6285156621047) -->
+        <a class="action-btn"
+           href="https://wa.me/6285156621047?text=Halo%20Klemens,%20saya%20lihat%20portofolio%20kamu!"
+           target="_blank" rel="noopener">
+          <span class="icon">
+            <!-- WhatsApp SVG -->
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 21a9 9 0 1 0-7.7-4.33L3 21l4.5-1.2A8.96 8.96 0 0 0 12 21Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              <path d="M9.2 8.6c.2-.4.4-.4.6-.4h.5c.1 0 .3 0 .4.2.1.2.5 1.2.6 1.3.1.2.1.3 0 .5l-.3.4c-.1.1-.2.2-.1.4.1.2.6 1.1 1.4 1.8.9.8 1.7 1.1 2 1.2.2.1.3 0 .4-.1l.5-.6c.1-.1.3-.1.5 0 .2.1 1.4.7 1.6.8.2.1.3.2.3.3 0 .1 0 .7-.3 1.1-.3.4-.9.8-1.2.8-.3.1-1.1.2-2.6-.4-1.6-.7-2.9-1.9-3.6-2.7-.6-.7-1.3-1.8-1.3-2.8 0-.9.4-1.3.6-1.6Z" fill="currentColor" opacity=".9"/>
+            </svg>
+          </span>
+          WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTENT -->
+    <section class="grid">
+      <!-- SOSIAL MEDIA PRIBADI -->
+      <div class="panel span-6">
+        <h3>Sosial Media</h3>
+        <p>Akun sosial media yang aku gunakan.</p>
+
+        <!-- IG PERSONAL (FULL KLIK) -->
+        <a class="item link-item"
+           href="https://www.instagram.com/klemens.tan?igsh=YmJ2d2JrMWUxeGx3"
+           target="_blank" rel="noopener">
+          <div class="item-left">
+            <div class="item-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M7.5 2.75h9A4.75 4.75 0 0 1 21.25 7.5v9A4.75 4.75 0 0 1 16.5 21.25h-9A4.75 4.75 0 0 1 2.75 16.5v-9A4.75 4.75 0 0 1 7.5 2.75Z" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M12 16.25a4.25 4.25 0 1 0 0-8.5 4.25 4.25 0 0 0 0 8.5Z" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M17.5 6.9h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Instagram</strong>
+              <p>Update aktivitas & hal-hal yang aku kerjakan.</p>
+            </div>
+          </div>
+          <span class="tag">@klemens.tan</span>
+        </a>
+
+        <!-- WA PERSONAL (FULL KLIK) -->
+        <a class="item link-item"
+           href="https://wa.me/6285156621047?text=Halo%20Klemens,%20saya%20lihat%20portofolio%20kamu!"
+           target="_blank" rel="noopener">
+          <div class="item-left">
+            <div class="item-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 21a9 9 0 1 0-7.7-4.33L3 21l4.5-1.2A8.96 8.96 0 0 0 12 21Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M9.2 8.6c.2-.4.4-.4.6-.4h.5c.1 0 .3 0 .4.2.1.2.5 1.2.6 1.3.1.2.1.3 0 .5l-.3.4c-.1.1-.2.2-.1.4.1.2.6 1.1 1.4 1.8.9.8 1.7 1.1 2 1.2.2.1.3 0 .4-.1l.5-.6c.1-.1.3-.1.5 0 .2.1 1.4.7 1.6.8.2.1.3.2.3.3 0 .1 0 .7-.3 1.1-.3.4-.9.8-1.2.8-.3.1-1.1.2-2.6-.4-1.6-.7-2.9-1.9-3.6-2.7-.6-.7-1.3-1.8-1.3-2.8 0-.9.4-1.3.6-1.6Z" fill="currentColor" opacity=".9"/>
+              </svg>
+            </div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p>Kontak langsung untuk kerja sama / tanya-tanya.</p>
+            </div>
+          </div>
+          <span class="tag">0851-5662-1047</span>
+        </a>
+      </div>
+
+      <!-- SOCIAL MEDIA PENDIDIKAN -->
+      <div class="panel span-6">
+        <h3>Social Media Pendidikan</h3>
+        <p>Instagram tempat pendidikan yang pernah/sedang aku jalani.</p>
+
+        <!-- KAMPUS -->
+        <a class="item link-item"
+           href="https://www.instagram.com/ukdwyogyakarta?igsh=MWQxOWowZXIwNWczdQ=="
+           target="_blank" rel="noopener">
+          <div class="item-left">
+            <div class="item-icon" aria-hidden="true">
+              <!-- university -->
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 9.5 12 5l9 4.5-9 4.5-9-4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M6 12v6M10 12v6M14 12v6M18 12v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M4.5 18.5h15" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>Kampus — UKDW</strong>
+              <p>Universitas Kristen Duta Wacana</p>
+            </div>
+          </div>
+          <span class="tag">@ukdwyogyakarta</span>
+        </a>
+
+        <!-- SMA -->
+        <a class="item link-item"
+           href="https://www.instagram.com/smakkudusofficial?igsh=cGMxa3hpMjJicGgw"
+           target="_blank" rel="noopener">
+          <div class="item-left">
+            <div class="item-icon" aria-hidden="true">
+              <!-- school -->
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 10.5 12 6l8 4.5-8 4.5-8-4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M6.5 12.5V19h11V12.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M10 19v-4h4v4" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>SMA</strong>
+              <p>Instagram resmi sekolah SMA</p>
+            </div>
+          </div>
+          <span class="tag">@smakkudusofficial</span>
+        </a>
+
+        <!-- SMP -->
+        <a class="item link-item"
+           href="https://www.instagram.com/smpkanisiuskudus?igsh=MWdvNjVvbTNqcG94cw=="
+           target="_blank" rel="noopener">
+          <div class="item-left">
+            <div class="item-icon" aria-hidden="true">
+              <!-- school -->
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 10.5 12 6l8 4.5-8 4.5-8-4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M6.5 12.5V19h11V12.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M10 19v-4h4v4" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>SMP</strong>
+              <p>Instagram resmi sekolah SMP</p>
+            </div>
+          </div>
+          <span class="tag">@smpkanisiuskudus</span>
+        </a>
+
+        <!-- SD -->
+        <a class="item link-item"
+           href="https://www.instagram.com/sd.cahaya.nur?igsh=ODR0cmxwc2t2MGRo"
+           target="_blank" rel="noopener">
+          <div class="item-left">
+            <div class="item-icon" aria-hidden="true">
+              <!-- school -->
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 10.5 12 6l8 4.5-8 4.5-8-4.5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M6.5 12.5V19h11V12.5" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+                <path d="M10 19v-4h4v4" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <strong>SD</strong>
+              <p>Instagram resmi sekolah SD</p>
+            </div>
+          </div>
+          <span class="tag">@sd.cahaya.nur</span>
+        </a>
+      </div>
+
+      <!-- ORGANISASI -->
+      <div class="panel span-12">
+        <h3>Organisasi</h3>
+        <p>Organisasi yang pernah dan sedang aku ikuti.</p>
+
+        <!-- KBMJ (FULL KLIK KE INSTAGRAM KBMJ) -->
+        <a class="item link-item"
+           href="https://www.instagram.com/kbmj_ukdw/"
+           target="_blank" rel="noopener">
+
+          <div class="item-left">
+            <!-- LOGO KBMJ: taruh file "kbmj.png" di folder yang sama -->
+            <div class="item-icon" style="background:#ffffff; padding:4px;">
+              <img src="images.jpg" alt="Logo KBMJ"
+                   style="width:100%;height:100%;object-fit:cover;border-radius:50%;">
+            </div>
+
+            <div>
+              <strong>KBMJ UKDW</strong>
+              <p>Jabatan: Humas • Instagram organisasi tersedia</p>
+            </div>
+          </div>
+
+          <span class="tag">@kbmj_ukdw</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="footer">© 2026 Klemens Porto</div>
+  </div>
+</body>
+</html>
